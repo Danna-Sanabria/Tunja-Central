@@ -1,0 +1,68 @@
+#cultos {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    color: #d7ecff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.title-container h2 {
+    text-align: center;
+    color: #041b49;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 2fr));
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.cardcultos {
+    width: 70%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #041b49;
+    border-style: inset ;
+    border-color: #e6a251;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcultos:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px #041b49;
+}
+
+.cultos .cardcultos {
+    font-weight: 400;
+    text-decoration: dashed;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(1, minmax(220px, 1fr));
+        grid-gap: 10px;
+    }
+
+    .card-body {
+        margin: 1.2rem;
+
+    }
+
+    .title-container h2 {
+        font-size: 1.2rem;
+    }
+}

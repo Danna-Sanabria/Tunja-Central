@@ -1,0 +1,36 @@
+.bethel {
+    background-color: #7f36c3;
+    text-align: center;
+    padding: 1em;
+}
+
+.bethel iframe {
+    width: 80%;
+    margin: 0 auto;
+    width: 80%;
+    height: 510px;
+    margin: auto;
+
+}
+
+.bethel h1, a {
+    margin-top: 5px;
+    font-size: 2vw auto;
+    color: #f5ebeb;
+}
+
+.bethel a:hover {
+    color: cornflowerblue;
+}
+
+@media screen and (max-width: 768px) {
+    .bethel h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .bethel iframe {
+        min-width: auto;
+        min-height: auto;
+    }
+}

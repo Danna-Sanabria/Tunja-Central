@@ -1,0 +1,32 @@
+.contenedor-redes {
+    text-align: center;
+    margin: 2% auto;
+    width: 90%;
+}
+
+.contenedor-redes h1 {
+    font-size: 1.5rem;
+    color: #041b49;
+    margin: 2% auto;
+}
+
+.contenedor-redes iframe {
+    width: 500px;
+    height: 550px;
+    margin: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-redes {
+        margin: 0 auto;
+    }
+    .contenedor-redes h1 {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-redes iframe {
+        width: 90%;
+        height: 0px;
+        margin: 0rem auto;
+    }
+}

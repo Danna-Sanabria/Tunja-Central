@@ -1,0 +1,14 @@
+<div class="title-container">
+    <h2>Descubre Nuestras Transmisiones en YouTube: </h2>
+    <div class="container" [ngStyle]="{'min-height': finalHeight}">
+
+        <div style="max-width: 540px;" *ngFor="let titleCulto of itemsCultos;" id="cultos" class="cultos">
+            <div class="row g-0">
+
+            </div>
+            <div class="card-body" class="cardcultos" (click)="redirectToLink(titleCulto.link)">
+                <h5 class="title">{{titleCulto.name}} </h5>
+            </div>
+        </div>
+    </div>
+</div>

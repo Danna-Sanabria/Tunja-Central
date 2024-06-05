@@ -1,0 +1,27 @@
+.footer__123-378 {
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: #041b49;
+    width: 100%; /* Utiliza el 100% del ancho del contenedor */
+    max-width: 1920px; /* Establece un máximo de ancho para evitar que se extienda demasiado en pantallas grandes */
+    height: 80%; /* Usa la altura necesaria según el contenido */
+    padding: 20px; /* Añade un espacio interno para mejorar la apariencia */
+}
+
+.footer {
+    color: #ffffff;
+    font-size: 1rem; /* Tamaño de fuente relativo */
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: Merriweather, sans-serif; /* Agrega una fuente de respaldo */
+    font-weight: 400;
+    width: 100%; /* Utiliza el 100% del ancho del contenedor */
+    max-width: 960px; /* Establece un máximo de ancho para el contenido */
+    margin: 0 auto; /* Centra el pie de página horizontalmente */
+    padding: 10px 0; /* Espacio interno superior e inferior */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente el contenido */
+}
